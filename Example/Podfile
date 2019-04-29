@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WyhArrowToast_Example' do
+  pod 'WyhArrowToast', :path => '../'
+
+  target 'WyhArrowToast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

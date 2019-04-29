@@ -1,0 +1,16 @@
+PODS:
+  - WyhArrowToast (0.1.0)
+
+DEPENDENCIES:
+  - WyhArrowToast (from `../`)
+
+EXTERNAL SOURCES:
+  WyhArrowToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WyhArrowToast: 8b8d69e178d40330488f09cfabd16bd18cbd2dfc
+
+PODFILE CHECKSUM: 74a3afa0c95ca3ce5715363e85b80e97490645ea
+
+COCOAPODS: 1.6.1
