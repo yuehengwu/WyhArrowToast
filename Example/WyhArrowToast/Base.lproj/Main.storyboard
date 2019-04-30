@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Wyh View Controller-->
         <scene sceneID="wQg-tq-qST">
             <objects>
                 <viewController id="whP-gf-Uak" customClass="WyhViewController" sceneMemberID="viewController">
@@ -20,12 +20,73 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mdo-rN-g7j">
+                                <rect key="frame" x="275" y="40" width="84" height="49"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="I3T-jt-kkD"/>
+                                    <constraint firstAttribute="height" constant="49" id="XZL-3f-wgr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qII-AG-apG">
+                                <rect key="frame" x="145.5" y="309" width="84" height="49"/>
+                                <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="7h2-vg-S3n"/>
+                                    <constraint firstAttribute="height" constant="49" id="8Lc-tc-Zus"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Otb-BI-0kF">
+                                <rect key="frame" x="27" y="468" width="84" height="49"/>
+                                <color key="backgroundColor" red="0.26720355308219179" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="IO2-Ia-h1E"/>
+                                    <constraint firstAttribute="width" constant="84" id="dHo-Ca-ThT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dFk-Dw-LLY">
+                                <rect key="frame" x="257" y="590" width="84" height="49"/>
+                                <color key="backgroundColor" red="0.58039215686274503" green="0.1280144453" blue="0.89624357876712324" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="HfW-dG-m3V"/>
+                                    <constraint firstAttribute="height" constant="49" id="m9I-hA-hFE"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DS9-KU-1Gv">
+                                <rect key="frame" x="16" y="148" width="84" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="AEN-PC-ojc"/>
+                                    <constraint firstAttribute="width" constant="84" id="aQl-PC-Vvm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="Otb-BI-0kF" secondAttribute="bottom" constant="150" id="CKV-af-GlS"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="dFk-Dw-LLY" secondAttribute="bottom" constant="28" id="G4m-Je-MGa"/>
+                            <constraint firstItem="Otb-BI-0kF" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="11" id="HqK-2x-AcS"/>
+                            <constraint firstItem="qII-AG-apG" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="I8U-lH-ELX"/>
+                            <constraint firstItem="qII-AG-apG" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="PFd-pO-FBl"/>
+                            <constraint firstItem="DS9-KU-1Gv" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="YXH-eh-wbp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dFk-Dw-LLY" secondAttribute="trailing" constant="18" id="ca1-V0-Uvy"/>
+                            <constraint firstItem="DS9-KU-1Gv" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="128" id="p8N-AX-Nzn"/>
+                            <constraint firstItem="Mdo-rN-g7j" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="u8I-vw-aI0"/>
+                            <constraint firstItem="Mdo-rN-g7j" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="20" id="uC6-Pf-1ce"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="view0" destination="DS9-KU-1Gv" id="aoa-YV-MK5"/>
+                        <outlet property="view1" destination="Mdo-rN-g7j" id="BeS-so-Wpo"/>
+                        <outlet property="view2" destination="qII-AG-apG" id="ea1-qx-Zad"/>
+                        <outlet property="view3" destination="Otb-BI-0kF" id="wnG-AQ-aKK"/>
+                        <outlet property="view4" destination="dFk-Dw-LLY" id="fjY-Z2-2SB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "WyhArrowToastStyle.h"
+#import "WyhArrowToastView.h"
 
 FOUNDATION_EXPORT double WyhArrowToastVersionNumber;
 FOUNDATION_EXPORT const unsigned char WyhArrowToastVersionString[];
