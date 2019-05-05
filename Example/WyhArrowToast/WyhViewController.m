@@ -26,16 +26,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    
 }
-
 
 - (void)viewDidLayoutSubviews {
     
     [super viewDidLayoutSubviews];
     
-    [self showAllToast];
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [self showAllToast];
+    });
+    
 }
+
 
 - (void)showAllToast {
     // point0
@@ -61,9 +64,13 @@
 
 - (void)showArrowToastWithPoint:(CGPoint)point direction:(WyhArrowToastViewDirection)direction {
     
-    [WyhArrowToastView showToastMessage:NSLocalizedString(@"Click to show again", nil) point:point direction:direction style:nil superView:self.view];
+    [WyhArrowToastView showToastMessage:NSLocalizedString(@"Click anywhere to show again", nil) point:point direction:direction style:nil superView:self.view];
     
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    [self showAllToast];
+}
 
 @end
