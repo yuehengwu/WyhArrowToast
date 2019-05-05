@@ -6,6 +6,9 @@
 
 Easy and fast to show arrow toast in your beautiful app .
 
+![](https://upload-images.jianshu.io/upload_images/4097230-426ec2fa022c5da7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
