@@ -7,7 +7,6 @@
 //
 
 #import "WyhArrowToastView.h"
-#import "WyhArrowToastStyle.h"
 
 CGFloat const kArrowToastDismissTimeInterval = 5.f;
 
@@ -548,7 +547,7 @@ static NSString * const kDismiss_Animation_Key = @"kDismiss_Animation_Key";
     
     NSParameterAssert(_message);
     
-    CGSize textSize = [_message boundingRectWithSize:CGSizeMake(MAXFLOAT, 44)
+    CGSize textSize = [_message boundingRectWithSize:_style.limitTextSize
                                              options:NSStringDrawingUsesLineFragmentOrigin
                                           attributes:[self getTextAttribute]
                                              context:nil].size;

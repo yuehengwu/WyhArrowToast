@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class WyhArrowToastStyle;
+#import "WyhArrowToastStyle.h"
 
 extern CGFloat const kArrowToastDismissTimeInterval;// default dismiss time interval
 

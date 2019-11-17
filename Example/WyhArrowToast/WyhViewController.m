@@ -64,7 +64,10 @@
 
 - (void)showArrowToastWithPoint:(CGPoint)point direction:(WyhArrowToastViewDirection)direction {
     
-    [WyhArrowToastView showToastMessage:NSLocalizedString(@"Click anywhere to show again", nil) point:point direction:direction style:nil superView:self.view];
+    WyhArrowToastStyle *style = [[WyhArrowToastStyle alloc]init];
+    style.limitTextSize = CGSizeMake(100, MAXFLOAT);
+    
+    [WyhArrowToastView showToastMessage:NSLocalizedString(@"Click anywhere to show again 阿达控件的安静按时拉三等奖拉进来圣诞节拉时间段拉所经历的家里可视对讲拉卡时间段拉建设路口觉得", nil) point:point direction:direction style:style superView:self.view];
     
 }
 

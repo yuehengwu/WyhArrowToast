@@ -20,4 +20,6 @@
 
 @property (nonatomic, assign) NSTimeInterval dismissInterval;
 
+@property (nonatomic, assign) CGSize limitTextSize;
+
 @end

@@ -17,6 +17,7 @@
         _isShowShadow = YES;
         _dismissInterval = 3.f;
         _textColor = [UIColor orangeColor];
+        _limitTextSize = CGSizeMake(MAXFLOAT, 44.f);
     }
     return self;
 }
