@@ -1,5 +1,5 @@
 PODS:
-  - WyhArrowToast (0.1.0)
+  - WyhArrowToast (1.0.2)
 
 DEPENDENCIES:
   - WyhArrowToast (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WyhArrowToast: 8b8d69e178d40330488f09cfabd16bd18cbd2dfc
+  WyhArrowToast: 7257259aec4f124ca09659913163604014af1979
 
 PODFILE CHECKSUM: b0f4faab13052bb9aea147d5d8863e80325b3210
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4

@@ -200,15 +200,16 @@ static NSString * const kDismiss_Animation_Key = @"kDismiss_Animation_Key";
 
 #pragma mark - Api
 
-+ (void)showToastMessage:(NSString *)msg
-                   point:(CGPoint)point
-               direction:(WyhArrowToastViewDirection)direction
-                   style:(WyhArrowToastStyle *)style
-               superView:(UIView *)superView {
++ (instancetype)showToastMessage:(NSString *)msg
+                           point:(CGPoint)point
+                       direction:(WyhArrowToastViewDirection)direction
+                           style:(WyhArrowToastStyle *)style
+                       superView:(UIView *)superView {
     
     // every time just for test !
     WyhArrowToastView *toast = [[WyhArrowToastView alloc]initToastMessage:msg point:point direction:direction style:style superView:superView];
     [toast show];
+    return toast;
 }
 
 - (void)updateToastMessage:(NSString *)msg

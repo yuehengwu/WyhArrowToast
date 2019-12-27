@@ -28,11 +28,11 @@ typedef NS_ENUM(NSUInteger, WyhArrowToastViewDirection) {
 
 @property (nonatomic, assign, readonly) BOOL isAppear;
 
-+ (void)showToastMessage:(NSString *)msg
-                   point:(CGPoint)point
-               direction:(WyhArrowToastViewDirection)direction
-                   style:(WyhArrowToastStyle *)style
-               superView:(UIView *)superView;
++ (instancetype)showToastMessage:(NSString *)msg
+                           point:(CGPoint)point
+                       direction:(WyhArrowToastViewDirection)direction
+                           style:(WyhArrowToastStyle *)style
+                       superView:(UIView *)superView;
 
 - (instancetype)initToastMessage:(NSString *)msg
                            point:(CGPoint)point

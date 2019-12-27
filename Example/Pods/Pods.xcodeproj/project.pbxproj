@@ -7,75 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025DAA5373FB584B11CCDECE49554477 /* WyhArrowToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC469981B9142034B35A0F5B738533 /* WyhArrowToastView.m */; };
-		0B95893EA63C30997523A094630DF492 /* WyhArrowToastStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8298CE0BF72E79CC10F741CBEFC17209 /* WyhArrowToastStyle.m */; };
-		4C3EF123FEFD2305BA01221F27DD8E93 /* Pods-WyhArrowToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5BFA2101513C18D68B74EE45809F7 /* Pods-WyhArrowToast_Tests-dummy.m */; };
-		788D3CDDE0F37625A7815979A517CB3C /* Pods-WyhArrowToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A35520B5563F807EA99DD9609D2D4D /* Pods-WyhArrowToast_Example-dummy.m */; };
-		9AF7C9B625500F39533454795CC8962A /* WyhArrowToastStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = FA222E800828546C4FB760CCF33C4D52 /* WyhArrowToastStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C7BAF85DCDD4C605DF6F692EF245FB91 /* WyhArrowToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29906063BA24D07E5D682119F3BFCA6F /* WyhArrowToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6384FD0B3D209B528134C21D9FA6A0A /* WyhArrowToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A78EF700E28AFDE94CA74CCB11A095 /* WyhArrowToast-dummy.m */; };
+		067BAB9A5D2A7A4BFFF59EEA3479A398 /* WyhArrowToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC469981B9142034B35A0F5B738533 /* WyhArrowToastView.m */; };
+		071A1F72864C612E2EDD597031197658 /* Pods-WyhArrowToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A87EF7FF644FBDFE456A0A71A1BF3BFF /* Pods-WyhArrowToast_Example-dummy.m */; };
+		36F97EBA9864C5FB3E7E96D3CEFEDB15 /* WyhArrowToastStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8298CE0BF72E79CC10F741CBEFC17209 /* WyhArrowToastStyle.m */; };
+		5A84211E073659C75A0CC246B89F5397 /* WyhArrowToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC522881180297EB1597BF67341BEFD /* WyhArrowToast-dummy.m */; };
+		9E30E37FFD9080B963FFDD1A58F76BEB /* WyhArrowToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29906063BA24D07E5D682119F3BFCA6F /* WyhArrowToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A733073B903336EB34FC7C223FD831CD /* WyhArrowToastStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = FA222E800828546C4FB760CCF33C4D52 /* WyhArrowToastStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8A692AA5A9517A1223515E26D1ACD3E /* Pods-WyhArrowToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC285C5D8D0DB4F7056EC747D9399AA /* Pods-WyhArrowToast_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6C55DA69956ADC29D2C3E885DC1859E1 /* PBXContainerItemProxy */ = {
+		010B9096E02AFED77C951BC57FDD43B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F95606CB86AF25E392C742589FEE3E0F;
+			remoteGlobalIDString = 5D757E5A93C9BB7A6FD5837F236CDC47;
 			remoteInfo = "Pods-WyhArrowToast_Example";
 		};
-		B9F634A63B19CC24D985A3AE290FF4BE /* PBXContainerItemProxy */ = {
+		99FF000B94DE95E64D06DAF93D03AE38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 751964409D0522B6C1E0B7D58CD2544C;
+			remoteGlobalIDString = F2F9F0E11404CFCB415310AD6D4AB00F;
 			remoteInfo = WyhArrowToast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C98D1F92F6F406C46E74F7803332504 /* Pods-WyhArrowToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyhArrowToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1998EFAAFB0C92ED6811386BF3AA4F9B /* Pods-WyhArrowToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyhArrowToast_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1D0A866890C64AFABE535B9C3BAECEC1 /* Pods-WyhArrowToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyhArrowToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		29906063BA24D07E5D682119F3BFCA6F /* WyhArrowToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WyhArrowToastView.h; path = WyhArrowToast/Classes/WyhArrowToastView.h; sourceTree = "<group>"; };
-		30488CB44B6A4103A7301ED028B98F98 /* Pods-WyhArrowToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WyhArrowToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4794BA23727AE49DBFA4CB8AFF7A93C5 /* libPods-WyhArrowToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WyhArrowToast_Example.a"; path = "libPods-WyhArrowToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A8D4221B45C1E47E95486A435FBF3A /* Pods-WyhArrowToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyhArrowToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EC285C5D8D0DB4F7056EC747D9399AA /* Pods-WyhArrowToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WyhArrowToast_Tests-dummy.m"; sourceTree = "<group>"; };
+		3FEC0645E906CD10F7E6611ECAFC9E0D /* libPods-WyhArrowToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WyhArrowToast_Example.a"; path = "libPods-WyhArrowToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A552AE0E19A65B6448E5BCE1336ABA /* Pods-WyhArrowToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WyhArrowToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4997F182DC25F7176A98DB7B837E4F87 /* WyhArrowToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WyhArrowToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D7B6A8E327499F3626E90A6505217D9 /* Pods-WyhArrowToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyhArrowToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		52053490EE28496C51CAD70A34628EF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		565207A375704871C6B40C371FCEEE92 /* libWyhArrowToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWyhArrowToast.a; path = libWyhArrowToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5222F9DF11ECC5BA3EF3AF47E4125F54 /* libPods-WyhArrowToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WyhArrowToast_Tests.a"; path = "libPods-WyhArrowToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BE2DBADF4D056CA243B767A65D00F7 /* WyhArrowToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyhArrowToast.xcconfig; sourceTree = "<group>"; };
 		56FE05D5F86788D39F8CDE76FA0E59D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		68A35520B5563F807EA99DD9609D2D4D /* Pods-WyhArrowToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WyhArrowToast_Example-dummy.m"; sourceTree = "<group>"; };
-		6FA5BFA2101513C18D68B74EE45809F7 /* Pods-WyhArrowToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WyhArrowToast_Tests-dummy.m"; sourceTree = "<group>"; };
-		77B9F95FB62091C5D196626BE0A8DC0D /* WyhArrowToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyhArrowToast.xcconfig; sourceTree = "<group>"; };
+		7C1CF20C677C684A2C285750A9381034 /* Pods-WyhArrowToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyhArrowToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8298CE0BF72E79CC10F741CBEFC17209 /* WyhArrowToastStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WyhArrowToastStyle.m; path = WyhArrowToast/Classes/WyhArrowToastStyle.m; sourceTree = "<group>"; };
-		90FF802ACFC4D4B36216E8F756CFE4E6 /* Pods-WyhArrowToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyhArrowToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9532BA262486667550B5477CFFE8CE3F /* Pods-WyhArrowToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WyhArrowToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9ED7743035020EAF666DE595FF5BBE9F /* WyhArrowToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyhArrowToast-prefix.pch"; sourceTree = "<group>"; };
-		B1A78EF700E28AFDE94CA74CCB11A095 /* WyhArrowToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WyhArrowToast-dummy.m"; sourceTree = "<group>"; };
-		BFA2E678D4E9FD3CBB30EADC28B5A01F /* Pods-WyhArrowToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyhArrowToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1F690FDEAB9EBA8B392F0A15CBFCC1B /* libPods-WyhArrowToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WyhArrowToast_Tests.a"; path = "libPods-WyhArrowToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9E5654B314C8B1CCA5DA3B311F6A619 /* Pods-WyhArrowToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyhArrowToast_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A87EF7FF644FBDFE456A0A71A1BF3BFF /* Pods-WyhArrowToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WyhArrowToast_Example-dummy.m"; sourceTree = "<group>"; };
+		BCC522881180297EB1597BF67341BEFD /* WyhArrowToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WyhArrowToast-dummy.m"; sourceTree = "<group>"; };
+		CCE41233460666E34B2A4321BCC85B87 /* WyhArrowToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyhArrowToast-prefix.pch"; sourceTree = "<group>"; };
+		DC7A41B14CA0C7BFD762799DA999167B /* Pods-WyhArrowToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WyhArrowToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0EC469981B9142034B35A0F5B738533 /* WyhArrowToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WyhArrowToastView.m; path = WyhArrowToast/Classes/WyhArrowToastView.m; sourceTree = "<group>"; };
-		E1CFCA6C6239266D892FF515394321BF /* Pods-WyhArrowToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyhArrowToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ED8BC8AD70C42BD2998C775175D7D1F1 /* Pods-WyhArrowToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyhArrowToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBD7EEA26398979814624667ABDE2C51 /* libWyhArrowToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWyhArrowToast.a; path = libWyhArrowToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA222E800828546C4FB760CCF33C4D52 /* WyhArrowToastStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WyhArrowToastStyle.h; path = WyhArrowToast/Classes/WyhArrowToastStyle.h; sourceTree = "<group>"; };
+		FE67A6793600AFBCAB349896D4C16BEB /* Pods-WyhArrowToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyhArrowToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		538EE5836405CBAF38846CA2D30DEE25 /* Frameworks */ = {
+		A988A4B5D2B1D49DDF6DA3D7637C72C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55A4620460044DAD35A54855C6E482AE /* Frameworks */ = {
+		BBCAF71F03FFCCC3CA4FC2CED10FED0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B257D9D485DC769D27DA97FB498EC64 /* Frameworks */ = {
+		FFFE6AEE2AA370EA60620B0C6C2F1477 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +88,8 @@
 		0A80F4A1345D6AF6B08A7F3610BECBA0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				77A8E5D53AB3008FE2B9EA9BDB777419 /* Pods-WyhArrowToast_Example */,
-				7B7003977978BC7A0034660FBFA81F88 /* Pods-WyhArrowToast_Tests */,
+				B80DB80F06B822310B1B2045E50B0884 /* Pods-WyhArrowToast_Example */,
+				A949F4D57605D5228DC3D9FCF00F11DF /* Pods-WyhArrowToast_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -102,19 +102,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		77A8E5D53AB3008FE2B9EA9BDB777419 /* Pods-WyhArrowToast_Example */ = {
-			isa = PBXGroup;
-			children = (
-				9532BA262486667550B5477CFFE8CE3F /* Pods-WyhArrowToast_Example-acknowledgements.markdown */,
-				ED8BC8AD70C42BD2998C775175D7D1F1 /* Pods-WyhArrowToast_Example-acknowledgements.plist */,
-				68A35520B5563F807EA99DD9609D2D4D /* Pods-WyhArrowToast_Example-dummy.m */,
-				E1CFCA6C6239266D892FF515394321BF /* Pods-WyhArrowToast_Example.debug.xcconfig */,
-				D9E5654B314C8B1CCA5DA3B311F6A619 /* Pods-WyhArrowToast_Example.release.xcconfig */,
-			);
-			name = "Pods-WyhArrowToast_Example";
-			path = "Target Support Files/Pods-WyhArrowToast_Example";
-			sourceTree = "<group>";
-		};
 		7B4EA6CCC7008BDD4B7105893174D2E8 /* WyhArrowToast */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,44 +110,57 @@
 				29906063BA24D07E5D682119F3BFCA6F /* WyhArrowToastView.h */,
 				E0EC469981B9142034B35A0F5B738533 /* WyhArrowToastView.m */,
 				D56F47B4340CD5FC5D5EEB54AD32352C /* Pod */,
-				CA742452BF8DF58C5D9A590B26EDCEBD /* Support Files */,
+				7F125D987FDE572CC75E987013DEFAD7 /* Support Files */,
 			);
 			name = WyhArrowToast;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7B7003977978BC7A0034660FBFA81F88 /* Pods-WyhArrowToast_Tests */ = {
+		7F125D987FDE572CC75E987013DEFAD7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				30488CB44B6A4103A7301ED028B98F98 /* Pods-WyhArrowToast_Tests-acknowledgements.markdown */,
-				BFA2E678D4E9FD3CBB30EADC28B5A01F /* Pods-WyhArrowToast_Tests-acknowledgements.plist */,
-				6FA5BFA2101513C18D68B74EE45809F7 /* Pods-WyhArrowToast_Tests-dummy.m */,
-				90FF802ACFC4D4B36216E8F756CFE4E6 /* Pods-WyhArrowToast_Tests.debug.xcconfig */,
-				1C98D1F92F6F406C46E74F7803332504 /* Pods-WyhArrowToast_Tests.release.xcconfig */,
+				53BE2DBADF4D056CA243B767A65D00F7 /* WyhArrowToast.xcconfig */,
+				BCC522881180297EB1597BF67341BEFD /* WyhArrowToast-dummy.m */,
+				CCE41233460666E34B2A4321BCC85B87 /* WyhArrowToast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WyhArrowToast";
+			sourceTree = "<group>";
+		};
+		A949F4D57605D5228DC3D9FCF00F11DF /* Pods-WyhArrowToast_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7A41B14CA0C7BFD762799DA999167B /* Pods-WyhArrowToast_Tests-acknowledgements.markdown */,
+				4D7B6A8E327499F3626E90A6505217D9 /* Pods-WyhArrowToast_Tests-acknowledgements.plist */,
+				3EC285C5D8D0DB4F7056EC747D9399AA /* Pods-WyhArrowToast_Tests-dummy.m */,
+				7C1CF20C677C684A2C285750A9381034 /* Pods-WyhArrowToast_Tests.debug.xcconfig */,
+				1D0A866890C64AFABE535B9C3BAECEC1 /* Pods-WyhArrowToast_Tests.release.xcconfig */,
 			);
 			name = "Pods-WyhArrowToast_Tests";
 			path = "Target Support Files/Pods-WyhArrowToast_Tests";
 			sourceTree = "<group>";
 		};
-		AB41C2648B3827E380EE1679E5C40613 /* Products */ = {
+		A96EF1E0F5FB9F9A6C61754BF9570818 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4794BA23727AE49DBFA4CB8AFF7A93C5 /* libPods-WyhArrowToast_Example.a */,
-				C1F690FDEAB9EBA8B392F0A15CBFCC1B /* libPods-WyhArrowToast_Tests.a */,
-				565207A375704871C6B40C371FCEEE92 /* libWyhArrowToast.a */,
+				3FEC0645E906CD10F7E6611ECAFC9E0D /* libPods-WyhArrowToast_Example.a */,
+				5222F9DF11ECC5BA3EF3AF47E4125F54 /* libPods-WyhArrowToast_Tests.a */,
+				EBD7EEA26398979814624667ABDE2C51 /* libWyhArrowToast.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA742452BF8DF58C5D9A590B26EDCEBD /* Support Files */ = {
+		B80DB80F06B822310B1B2045E50B0884 /* Pods-WyhArrowToast_Example */ = {
 			isa = PBXGroup;
 			children = (
-				77B9F95FB62091C5D196626BE0A8DC0D /* WyhArrowToast.xcconfig */,
-				B1A78EF700E28AFDE94CA74CCB11A095 /* WyhArrowToast-dummy.m */,
-				9ED7743035020EAF666DE595FF5BBE9F /* WyhArrowToast-prefix.pch */,
+				41A552AE0E19A65B6448E5BCE1336ABA /* Pods-WyhArrowToast_Example-acknowledgements.markdown */,
+				30A8D4221B45C1E47E95486A435FBF3A /* Pods-WyhArrowToast_Example-acknowledgements.plist */,
+				A87EF7FF644FBDFE456A0A71A1BF3BFF /* Pods-WyhArrowToast_Example-dummy.m */,
+				FE67A6793600AFBCAB349896D4C16BEB /* Pods-WyhArrowToast_Example.debug.xcconfig */,
+				1998EFAAFB0C92ED6811386BF3AA4F9B /* Pods-WyhArrowToast_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WyhArrowToast";
+			name = "Pods-WyhArrowToast_Example";
+			path = "Target Support Files/Pods-WyhArrowToast_Example";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -169,7 +169,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				2E537198C8064276979CB42CA61420AD /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				AB41C2648B3827E380EE1679E5C40613 /* Products */,
+				A96EF1E0F5FB9F9A6C61754BF9570818 /* Products */,
 				0A80F4A1345D6AF6B08A7F3610BECBA0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -194,57 +194,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		022C2932EFB5CE5FE5652E0385EFC263 /* Headers */ = {
+		C64A614457570B21B8A6A106CA27E178 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C22DA2637A3F647C71EFC1BA3CF3122 /* Headers */ = {
+		D41CC0D51B4D63288BAEBAF2FF9C559B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF7C9B625500F39533454795CC8962A /* WyhArrowToastStyle.h in Headers */,
-				C7BAF85DCDD4C605DF6F692EF245FB91 /* WyhArrowToastView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461B24BBB17F5066E5462CEB9F10BB8B /* Headers */ = {
+		ECB8CE9DB386E10C1C502E73C6A97F23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A733073B903336EB34FC7C223FD831CD /* WyhArrowToastStyle.h in Headers */,
+				9E30E37FFD9080B963FFDD1A58F76BEB /* WyhArrowToastView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5C9AB35094256DE7B4B4126DCA65590E /* Pods-WyhArrowToast_Tests */ = {
+		5D757E5A93C9BB7A6FD5837F236CDC47 /* Pods-WyhArrowToast_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D542E5063568960BB82A4AAEA1CDB79F /* Build configuration list for PBXNativeTarget "Pods-WyhArrowToast_Tests" */;
+			buildConfigurationList = 2CA28DB092D3E877796E13BB61723DD7 /* Build configuration list for PBXNativeTarget "Pods-WyhArrowToast_Example" */;
 			buildPhases = (
-				461B24BBB17F5066E5462CEB9F10BB8B /* Headers */,
-				BB8CAF7FB10BC66A1C6F634EBE9BBD71 /* Sources */,
-				538EE5836405CBAF38846CA2D30DEE25 /* Frameworks */,
+				C64A614457570B21B8A6A106CA27E178 /* Headers */,
+				BBDCF9D0B18E4192D760AB3BE54D146B /* Sources */,
+				A988A4B5D2B1D49DDF6DA3D7637C72C1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A128B740415124BC70703A5592458F2 /* PBXTargetDependency */,
+				374FBD1EBD981CBCA148C950E4A123F1 /* PBXTargetDependency */,
 			);
-			name = "Pods-WyhArrowToast_Tests";
-			productName = "Pods-WyhArrowToast_Tests";
-			productReference = C1F690FDEAB9EBA8B392F0A15CBFCC1B /* libPods-WyhArrowToast_Tests.a */;
+			name = "Pods-WyhArrowToast_Example";
+			productName = "Pods-WyhArrowToast_Example";
+			productReference = 3FEC0645E906CD10F7E6611ECAFC9E0D /* libPods-WyhArrowToast_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		751964409D0522B6C1E0B7D58CD2544C /* WyhArrowToast */ = {
+		F2F9F0E11404CFCB415310AD6D4AB00F /* WyhArrowToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D66FA9473E07EB48E7C5222BC11637BD /* Build configuration list for PBXNativeTarget "WyhArrowToast" */;
+			buildConfigurationList = E94F3DBDB29569A81939C18DB41D9D35 /* Build configuration list for PBXNativeTarget "WyhArrowToast" */;
 			buildPhases = (
-				1C22DA2637A3F647C71EFC1BA3CF3122 /* Headers */,
-				342D9EFB7F94C4AA3020E18B631F36A4 /* Sources */,
-				7B257D9D485DC769D27DA97FB498EC64 /* Frameworks */,
+				ECB8CE9DB386E10C1C502E73C6A97F23 /* Headers */,
+				DE37BA6F13287BD6FEF299B787BEB7D0 /* Sources */,
+				FFFE6AEE2AA370EA60620B0C6C2F1477 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,25 +252,25 @@
 			);
 			name = WyhArrowToast;
 			productName = WyhArrowToast;
-			productReference = 565207A375704871C6B40C371FCEEE92 /* libWyhArrowToast.a */;
+			productReference = EBD7EEA26398979814624667ABDE2C51 /* libWyhArrowToast.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F95606CB86AF25E392C742589FEE3E0F /* Pods-WyhArrowToast_Example */ = {
+		F8EA5EDBBA5B038C486205B332F804C1 /* Pods-WyhArrowToast_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E73E69A9151CFF6EDABD423580BCDA6 /* Build configuration list for PBXNativeTarget "Pods-WyhArrowToast_Example" */;
+			buildConfigurationList = AC839C3CE0D20C4ECA8974184AE4E415 /* Build configuration list for PBXNativeTarget "Pods-WyhArrowToast_Tests" */;
 			buildPhases = (
-				022C2932EFB5CE5FE5652E0385EFC263 /* Headers */,
-				AEBB72954838B819FB3ECB2BF537E1FB /* Sources */,
-				55A4620460044DAD35A54855C6E482AE /* Frameworks */,
+				D41CC0D51B4D63288BAEBAF2FF9C559B /* Headers */,
+				B7955D9179F0D845A10E656B66E09356 /* Sources */,
+				BBCAF71F03FFCCC3CA4FC2CED10FED0D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				318E0F95E3E44E232B0E8B47CC490338 /* PBXTargetDependency */,
+				3F24DC7A0BDEC75763249F76192C9C88 /* PBXTargetDependency */,
 			);
-			name = "Pods-WyhArrowToast_Example";
-			productName = "Pods-WyhArrowToast_Example";
-			productReference = 4794BA23727AE49DBFA4CB8AFF7A93C5 /* libPods-WyhArrowToast_Example.a */;
+			name = "Pods-WyhArrowToast_Tests";
+			productName = "Pods-WyhArrowToast_Tests";
+			productReference = 5222F9DF11ECC5BA3EF3AF47E4125F54 /* libPods-WyhArrowToast_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -279,74 +279,120 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AB41C2648B3827E380EE1679E5C40613 /* Products */;
+			productRefGroup = A96EF1E0F5FB9F9A6C61754BF9570818 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F95606CB86AF25E392C742589FEE3E0F /* Pods-WyhArrowToast_Example */,
-				5C9AB35094256DE7B4B4126DCA65590E /* Pods-WyhArrowToast_Tests */,
-				751964409D0522B6C1E0B7D58CD2544C /* WyhArrowToast */,
+				5D757E5A93C9BB7A6FD5837F236CDC47 /* Pods-WyhArrowToast_Example */,
+				F8EA5EDBBA5B038C486205B332F804C1 /* Pods-WyhArrowToast_Tests */,
+				F2F9F0E11404CFCB415310AD6D4AB00F /* WyhArrowToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		342D9EFB7F94C4AA3020E18B631F36A4 /* Sources */ = {
+		B7955D9179F0D845A10E656B66E09356 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6384FD0B3D209B528134C21D9FA6A0A /* WyhArrowToast-dummy.m in Sources */,
-				0B95893EA63C30997523A094630DF492 /* WyhArrowToastStyle.m in Sources */,
-				025DAA5373FB584B11CCDECE49554477 /* WyhArrowToastView.m in Sources */,
+				D8A692AA5A9517A1223515E26D1ACD3E /* Pods-WyhArrowToast_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEBB72954838B819FB3ECB2BF537E1FB /* Sources */ = {
+		BBDCF9D0B18E4192D760AB3BE54D146B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788D3CDDE0F37625A7815979A517CB3C /* Pods-WyhArrowToast_Example-dummy.m in Sources */,
+				071A1F72864C612E2EDD597031197658 /* Pods-WyhArrowToast_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB8CAF7FB10BC66A1C6F634EBE9BBD71 /* Sources */ = {
+		DE37BA6F13287BD6FEF299B787BEB7D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3EF123FEFD2305BA01221F27DD8E93 /* Pods-WyhArrowToast_Tests-dummy.m in Sources */,
+				5A84211E073659C75A0CC246B89F5397 /* WyhArrowToast-dummy.m in Sources */,
+				36F97EBA9864C5FB3E7E96D3CEFEDB15 /* WyhArrowToastStyle.m in Sources */,
+				067BAB9A5D2A7A4BFFF59EEA3479A398 /* WyhArrowToastView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		318E0F95E3E44E232B0E8B47CC490338 /* PBXTargetDependency */ = {
+		374FBD1EBD981CBCA148C950E4A123F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WyhArrowToast;
-			target = 751964409D0522B6C1E0B7D58CD2544C /* WyhArrowToast */;
-			targetProxy = B9F634A63B19CC24D985A3AE290FF4BE /* PBXContainerItemProxy */;
+			target = F2F9F0E11404CFCB415310AD6D4AB00F /* WyhArrowToast */;
+			targetProxy = 99FF000B94DE95E64D06DAF93D03AE38 /* PBXContainerItemProxy */;
 		};
-		9A128B740415124BC70703A5592458F2 /* PBXTargetDependency */ = {
+		3F24DC7A0BDEC75763249F76192C9C88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WyhArrowToast_Example";
-			target = F95606CB86AF25E392C742589FEE3E0F /* Pods-WyhArrowToast_Example */;
-			targetProxy = 6C55DA69956ADC29D2C3E885DC1859E1 /* PBXContainerItemProxy */;
+			target = 5D757E5A93C9BB7A6FD5837F236CDC47 /* Pods-WyhArrowToast_Example */;
+			targetProxy = 010B9096E02AFED77C951BC57FDD43B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		1315406FE44CE83C06FE89147CC7411B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BE2DBADF4D056CA243B767A65D00F7 /* WyhArrowToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WyhArrowToast/WyhArrowToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WyhArrowToast;
+				PRODUCT_NAME = WyhArrowToast;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E295FD8313DF43768F3D2F07471E223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1998EFAAFB0C92ED6811386BF3AA4F9B /* Pods-WyhArrowToast_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,14 +447,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		0DE020CEAAE9CA0A7FC4E800BDD4635A /* Release */ = {
+		6A4F566A8A4691AAF5722D4E4EDD816A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9E5654B314C8B1CCA5DA3B311F6A619 /* Pods-WyhArrowToast_Example.release.xcconfig */;
+			baseConfigurationReference = 7C1CF20C677C684A2C285750A9381034 /* Pods-WyhArrowToast_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -424,11 +470,31 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7A932685D48FDD14F8266440C32D349A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE67A6793600AFBCAB349896D4C16BEB /* Pods-WyhArrowToast_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -487,14 +553,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		45EBCAC3AB4EEE22D8BDA029BF62FAD7 /* Debug */ = {
+		B51E000E44CA1B5F9AF2646D0B6643B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90FF802ACFC4D4B36216E8F756CFE4E6 /* Pods-WyhArrowToast_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1D0A866890C64AFABE535B9C3BAECEC1 /* Pods-WyhArrowToast_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -510,12 +576,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		B0BED29CD86815FD5FBA7A8E6865780C /* Release */ = {
+		D9501C449485C006BF6C7C818CED3327 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77B9F95FB62091C5D196626BE0A8DC0D /* WyhArrowToast.xcconfig */;
+			baseConfigurationReference = 53BE2DBADF4D056CA243B767A65D00F7 /* WyhArrowToast.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -536,81 +603,15 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		B94E08984D6EA4CA046920B77888E300 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C98D1F92F6F406C46E74F7803332504 /* Pods-WyhArrowToast_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C268060396EFC66243A9A2220300105B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1CFCA6C6239266D892FF515394321BF /* Pods-WyhArrowToast_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FA3C3AF45EE59F11009AA0A2D17F42E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77B9F95FB62091C5D196626BE0A8DC0D /* WyhArrowToast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WyhArrowToast/WyhArrowToast-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WyhArrowToast;
-				PRODUCT_NAME = WyhArrowToast;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E73E69A9151CFF6EDABD423580BCDA6 /* Build configuration list for PBXNativeTarget "Pods-WyhArrowToast_Example" */ = {
+		2CA28DB092D3E877796E13BB61723DD7 /* Build configuration list for PBXNativeTarget "Pods-WyhArrowToast_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C268060396EFC66243A9A2220300105B /* Debug */,
-				0DE020CEAAE9CA0A7FC4E800BDD4635A /* Release */,
+				7A932685D48FDD14F8266440C32D349A /* Debug */,
+				1E295FD8313DF43768F3D2F07471E223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -618,26 +619,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D542E5063568960BB82A4AAEA1CDB79F /* Build configuration list for PBXNativeTarget "Pods-WyhArrowToast_Tests" */ = {
+		AC839C3CE0D20C4ECA8974184AE4E415 /* Build configuration list for PBXNativeTarget "Pods-WyhArrowToast_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45EBCAC3AB4EEE22D8BDA029BF62FAD7 /* Debug */,
-				B94E08984D6EA4CA046920B77888E300 /* Release */,
+				6A4F566A8A4691AAF5722D4E4EDD816A /* Debug */,
+				B51E000E44CA1B5F9AF2646D0B6643B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D66FA9473E07EB48E7C5222BC11637BD /* Build configuration list for PBXNativeTarget "WyhArrowToast" */ = {
+		E94F3DBDB29569A81939C18DB41D9D35 /* Build configuration list for PBXNativeTarget "WyhArrowToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA3C3AF45EE59F11009AA0A2D17F42E7 /* Debug */,
-				B0BED29CD86815FD5FBA7A8E6865780C /* Release */,
+				1315406FE44CE83C06FE89147CC7411B /* Debug */,
+				D9501C449485C006BF6C7C818CED3327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
